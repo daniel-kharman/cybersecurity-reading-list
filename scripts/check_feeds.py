@@ -44,7 +44,7 @@ USER_AGENT = (
 )
 ACCEPT = "application/atom+xml, application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.5"
 TIMEOUT_SECONDS = 30
-MAX_BYTES = 10 * 1024 * 1024
+MAX_BYTES = 50 * 1024 * 1024  # some full-text feeds run past 10 MB
 ATTEMPTS = 3
 RETRY_STATUSES = {408, 425, 429, 500, 502, 503, 504}
 PERMANENT_REDIRECTS = {301, 308}

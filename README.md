@@ -2,7 +2,7 @@
 
 [![Check feeds](https://github.com/daniel-kharman/cybersecurity-reading-list/actions/workflows/check-feeds.yml/badge.svg)](https://github.com/daniel-kharman/cybersecurity-reading-list/actions/workflows/check-feeds.yml)
 
-A small RSS feed list for staying current in security. It has 42 feeds in 11 folders, and a weekly job tests that every one still works.
+A small RSS feed list for staying current in security. A weekly job tests that every feed still works.
 
 Most security news reports incidents after they happen. This list leans toward the sources upstream of that: the researchers who publish new techniques and the practitioners who turn them into detections.
 
@@ -81,7 +81,7 @@ These tables are generated from `feeds.opml`.
 |---|---|
 | [Simon Willison - Prompt Injection](https://simonwillison.net/tags/prompt-injection/) ([feed](https://simonwillison.net/tags/prompt-injection.atom)) | Running commentary on prompt injection and the security of LLM agents. |
 | [Embrace The Red (Johann Rehberger)](https://embracethered.com/blog/) ([feed](https://embracethered.com/blog/index.xml)) | Practical exploits against AI assistants and agents, with disclosure write-ups. |
-| [Trail of Bits](https://blog.trailofbits.com) ([feed](https://blog.trailofbits.com/feed/)) | Security engineering research across AI and ML, cryptography and software assurance. |
+| [Trail of Bits](https://blog.trailofbits.com) ([feed](https://blog.trailofbits.com/index.xml)) | Security engineering research across AI and ML, cryptography and software assurance. |
 | [NVIDIA Technical Blog - Cybersecurity](https://developer.nvidia.com/blog/category/cybersecurity/) ([feed](https://developer.nvidia.com/blog/category/cybersecurity/feed/)) | Includes the NVIDIA AI red team's posts on securing ML systems. |
 
 ### Growth - Software Supply Chain
@@ -128,10 +128,8 @@ These tables are generated from `feeds.opml`.
 
 | Feed | Why it's here |
 |---|---|
-| [Lawfare - Cybersecurity & Tech](https://www.lawfaremedia.org/topics/cybersecurity-tech) ([feed](https://www.lawfaremedia.org/feeds/cybersecurity-tech)) | Legal and policy analysis of cyber, surveillance and technology. |
+| [CyberScoop](https://cyberscoop.com) ([feed](https://cyberscoop.com/feed/)) | US reporting on cyber policy, government and enforcement. |
 | [iTnews - Security](https://www.itnews.com.au/news/security) ([feed](https://www.itnews.com.au/RSS/rss.ashx?type=Category&ID=32)) | Australian security news, including government and regulatory developments. |
-| [ASD ACSC - Alerts](https://www.cyber.gov.au) ([feed](https://www.cyber.gov.au/rss/alerts)) | Australian Signals Directorate alerts on active threats. |
-| [ASD ACSC - Advisories](https://www.cyber.gov.au) ([feed](https://www.cyber.gov.au/rss/advisories)) | Australian Signals Directorate technical advisories. |
 <!-- feeds:end -->
 
 ## Left out
@@ -140,6 +138,8 @@ Some sources belong here but can't be followed by RSS.
 
 - **CISA advisories**: the feeds refuse automated fetchers. Subscribe to CISA's email alerts, or pull the Known Exploited Vulnerabilities catalogue as JSON.
 - **Dragos**: the blog has no feed.
+- **ASD's ACSC**: the [alerts](https://www.cyber.gov.au/rss/alerts) and [advisories](https://www.cyber.gov.au/rss/advisories) feeds time out for cloud-hosted fetchers, so they may fail in a hosted reader. Try them if your reader runs on your own machine.
+- **Lawfare**: the site's feeds currently return no posts.
 
 ## How the list stays current
 

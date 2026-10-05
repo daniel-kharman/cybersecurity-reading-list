@@ -35,7 +35,7 @@
     <outline text="Growth - AI Security" title="Growth - AI Security">
       <outline type="rss" text="Simon Willison - Prompt Injection" title="Simon Willison - Prompt Injection" xmlUrl="https://simonwillison.net/tags/prompt-injection.atom" htmlUrl="https://simonwillison.net/tags/prompt-injection/" description="Running commentary on prompt injection and the security of LLM agents."/>
       <outline type="rss" text="Embrace The Red (Johann Rehberger)" title="Embrace The Red (Johann Rehberger)" xmlUrl="https://embracethered.com/blog/index.xml" htmlUrl="https://embracethered.com/blog/" description="Practical exploits against AI assistants and agents, with disclosure write-ups."/>
-      <outline type="rss" text="Trail of Bits" title="Trail of Bits" xmlUrl="https://blog.trailofbits.com/feed/" htmlUrl="https://blog.trailofbits.com" description="Security engineering research across AI and ML, cryptography and software assurance."/>
+      <outline type="rss" text="Trail of Bits" title="Trail of Bits" xmlUrl="https://blog.trailofbits.com/index.xml" htmlUrl="https://blog.trailofbits.com" description="Security engineering research across AI and ML, cryptography and software assurance."/>
       <outline type="rss" text="NVIDIA Technical Blog - Cybersecurity" title="NVIDIA Technical Blog - Cybersecurity" xmlUrl="https://developer.nvidia.com/blog/category/cybersecurity/feed/" htmlUrl="https://developer.nvidia.com/blog/category/cybersecurity/" description="Includes the NVIDIA AI red team's posts on securing ML systems."/>
     </outline>
     <outline text="Growth - Software Supply Chain" title="Growth - Software Supply Chain">
@@ -64,10 +64,8 @@
       <outline type="rss" text="Industrial Cyber" title="Industrial Cyber" xmlUrl="https://industrialcyber.co/feed/" htmlUrl="https://industrialcyber.co" description="News on OT, ICS and critical infrastructure security."/>
     </outline>
     <outline text="Horizon - Policy &amp; Regulation" title="Horizon - Policy &amp; Regulation">
-      <outline type="rss" text="Lawfare - Cybersecurity &amp; Tech" title="Lawfare - Cybersecurity &amp; Tech" xmlUrl="https://www.lawfaremedia.org/feeds/cybersecurity-tech" htmlUrl="https://www.lawfaremedia.org/topics/cybersecurity-tech" description="Legal and policy analysis of cyber, surveillance and technology."/>
+      <outline type="rss" text="CyberScoop" title="CyberScoop" xmlUrl="https://cyberscoop.com/feed/" htmlUrl="https://cyberscoop.com" description="US reporting on cyber policy, government and enforcement."/>
       <outline type="rss" text="iTnews - Security" title="iTnews - Security" xmlUrl="https://www.itnews.com.au/RSS/rss.ashx?type=Category&amp;ID=32" htmlUrl="https://www.itnews.com.au/news/security" description="Australian security news, including government and regulatory developments."/>
-      <outline type="rss" text="ASD ACSC - Alerts" title="ASD ACSC - Alerts" xmlUrl="https://www.cyber.gov.au/rss/alerts" htmlUrl="https://www.cyber.gov.au" description="Australian Signals Directorate alerts on active threats."/>
-      <outline type="rss" text="ASD ACSC - Advisories" title="ASD ACSC - Advisories" xmlUrl="https://www.cyber.gov.au/rss/advisories" htmlUrl="https://www.cyber.gov.au" description="Australian Signals Directorate technical advisories."/>
     </outline>
   </body>
 </opml>
