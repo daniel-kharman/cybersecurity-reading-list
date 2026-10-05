@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Cybersecurity Reading List</title>
+    <ownerName>Daniel Kharman</ownerName>
+  </head>
+  <body>
+    <outline text="00 Weekly Digests" title="00 Weekly Digests">
+      <outline type="rss" text="tl;dr sec" title="tl;dr sec" xmlUrl="https://rss.beehiiv.com/feeds/xgTKUmMmUm.xml" htmlUrl="https://tldrsec.com" description="Weekly digest of new security research, tools and talks. Strongest on cloud, AppSec and AI."/>
+      <outline type="rss" text="Risky Business (podcast)" title="Risky Business (podcast)" xmlUrl="https://risky.biz/feeds/risky-business/" htmlUrl="https://risky.biz" description="Weekly news podcast that explains which stories matter and why."/>
+      <outline type="rss" text="Risky Bulletin" title="Risky Bulletin" xmlUrl="https://news.risky.biz/rss/" htmlUrl="https://news.risky.biz" description="Short news briefings several times a week, covering incidents, policy and threat actors."/>
+      <outline type="rss" text="CloudSecList" title="CloudSecList" xmlUrl="https://cloudseclist.com/feed.xml" htmlUrl="https://cloudseclist.com" description="Weekly roundup of cloud security research across AWS, GCP, Azure and Kubernetes."/>
+      <outline type="rss" text="Detection Engineering Weekly" title="Detection Engineering Weekly" xmlUrl="https://www.detectionengineering.net/feed" htmlUrl="https://www.detectionengineering.net" description="Weekly picks of detection research, rules and tooling."/>
+      <outline type="rss" text="This Week in 4n6" title="This Week in 4n6" xmlUrl="https://thisweekin4n6.com/feed/" htmlUrl="https://thisweekin4n6.com" description="Weekly index of DFIR posts, tools and malware analysis."/>
+      <outline type="rss" text="Unsupervised Learning (Daniel Miessler)" title="Unsupervised Learning (Daniel Miessler)" xmlUrl="https://danielmiessler.com/feed.rss" htmlUrl="https://danielmiessler.com" description="Commentary on security and AI from Daniel Miessler."/>
+    </outline>
+    <outline text="Core - Cloud &amp; Kubernetes" title="Core - Cloud &amp; Kubernetes">
+      <outline type="rss" text="Wiz Blog" title="Wiz Blog" xmlUrl="https://www.wiz.io/feed/rss.xml" htmlUrl="https://www.wiz.io/blog" description="Cloud vulnerability research and incident write-ups, mixed with product posts."/>
+      <outline type="rss" text="Datadog Security Labs" title="Datadog Security Labs" xmlUrl="https://securitylabs.datadoghq.com/rss/feed.xml" htmlUrl="https://securitylabs.datadoghq.com" description="Cloud attack techniques and threat research, often with open-source tooling."/>
+      <outline type="rss" text="Google Cloud - Identity &amp; Security" title="Google Cloud - Identity &amp; Security" xmlUrl="https://cloudblog.withgoogle.com/products/identity-security/rss/" htmlUrl="https://cloud.google.com/blog/products/identity-security" description="Google Cloud's security product and feature announcements."/>
+      <outline type="rss" text="Kubernetes Blog" title="Kubernetes Blog" xmlUrl="https://kubernetes.io/feed.xml" htmlUrl="https://kubernetes.io/blog/" description="Release notes and feature write-ups, including security changes."/>
+    </outline>
+    <outline text="Core - Identity" title="Core - Identity">
+      <outline type="rss" text="SpecterOps" title="SpecterOps" xmlUrl="https://specterops.io/feed/" htmlUrl="https://specterops.io/blog/" description="Active Directory and Entra ID attack-path research from the BloodHound team."/>
+      <outline type="rss" text="Dirk-jan Mollema" title="Dirk-jan Mollema" xmlUrl="https://dirkjanm.io/feed.xml" htmlUrl="https://dirkjanm.io" description="Deep Entra ID and hybrid identity research. Posts are rare and worth reading."/>
+      <outline type="rss" text="Active Directory Security (Sean Metcalf)" title="Active Directory Security (Sean Metcalf)" xmlUrl="https://adsecurity.org/?feed=rss2" htmlUrl="https://adsecurity.org" description="Active Directory attack and defence reference posts. Posts are rare."/>
+      <outline type="rss" text="Push Security" title="Push Security" xmlUrl="https://pushsecurity.com/rss.xml" htmlUrl="https://pushsecurity.com/blog" description="SaaS identity attacks: phishing kits that defeat MFA, OAuth abuse, session theft. Vendor blog."/>
+    </outline>
+    <outline text="Core - Detection &amp; DFIR" title="Core - Detection &amp; DFIR">
+      <outline type="rss" text="The DFIR Report" title="The DFIR Report" xmlUrl="https://thedfirreport.com/feed/" htmlUrl="https://thedfirreport.com" description="Full intrusion case studies, from initial access to impact, with timelines and indicators."/>
+      <outline type="rss" text="SANS Internet Storm Center" title="SANS Internet Storm Center" xmlUrl="https://isc.sans.edu/rssfeed_full.xml" htmlUrl="https://isc.sans.edu" description="Daily handler diaries on what is being seen in the wild."/>
+      <outline type="rss" text="Red Canary" title="Red Canary" xmlUrl="https://redcanary.com/blog/feed/" htmlUrl="https://redcanary.com/blog/" description="Detection-focused threat research and technique analysis."/>
+      <outline type="rss" text="Elastic Security Labs" title="Elastic Security Labs" xmlUrl="https://www.elastic.co/security-labs/rss/feed.xml" htmlUrl="https://www.elastic.co/security-labs" description="Malware analysis and detection research, with published rules."/>
+    </outline>
+    <outline text="Growth - AI Security" title="Growth - AI Security">
+      <outline type="rss" text="Simon Willison - Prompt Injection" title="Simon Willison - Prompt Injection" xmlUrl="https://simonwillison.net/tags/prompt-injection.atom" htmlUrl="https://simonwillison.net/tags/prompt-injection/" description="Running commentary on prompt injection and the security of LLM agents."/>
+      <outline type="rss" text="Embrace The Red (Johann Rehberger)" title="Embrace The Red (Johann Rehberger)" xmlUrl="https://embracethered.com/blog/index.xml" htmlUrl="https://embracethered.com/blog/" description="Practical exploits against AI assistants and agents, with disclosure write-ups."/>
+      <outline type="rss" text="Trail of Bits" title="Trail of Bits" xmlUrl="https://blog.trailofbits.com/feed/" htmlUrl="https://blog.trailofbits.com" description="Security engineering research across AI and ML, cryptography and software assurance."/>
+      <outline type="rss" text="NVIDIA Technical Blog - Cybersecurity" title="NVIDIA Technical Blog - Cybersecurity" xmlUrl="https://developer.nvidia.com/blog/category/cybersecurity/feed/" htmlUrl="https://developer.nvidia.com/blog/category/cybersecurity/" description="Includes the NVIDIA AI red team's posts on securing ML systems."/>
+    </outline>
+    <outline text="Growth - Software Supply Chain" title="Growth - Software Supply Chain">
+      <outline type="rss" text="Socket" title="Socket" xmlUrl="https://socket.dev/api/blog/feed.atom" htmlUrl="https://socket.dev/blog" description="Malicious package discoveries across npm, PyPI and other registries."/>
+      <outline type="rss" text="OpenSSF" title="OpenSSF" xmlUrl="https://openssf.org/feed/" htmlUrl="https://openssf.org/blog/" description="Open-source security standards and tooling, such as Sigstore, SLSA and Scorecard."/>
+      <outline type="rss" text="StepSecurity" title="StepSecurity" xmlUrl="https://www.stepsecurity.io/blog/rss.xml" htmlUrl="https://www.stepsecurity.io/blog" description="Analysis of CI/CD and GitHub Actions compromises."/>
+    </outline>
+    <outline text="Growth - Offensive &amp; Vuln Research" title="Growth - Offensive &amp; Vuln Research">
+      <outline type="rss" text="Google Project Zero" title="Google Project Zero" xmlUrl="https://projectzero.google/feed.xml" htmlUrl="https://projectzero.google" description="In-depth vulnerability and exploit research."/>
+      <outline type="rss" text="watchTowr Labs" title="watchTowr Labs" xmlUrl="https://labs.watchtowr.com/rss/" htmlUrl="https://labs.watchtowr.com" description="Fast teardowns of vulnerabilities in edge devices and enterprise appliances."/>
+      <outline type="rss" text="PortSwigger Research" title="PortSwigger Research" xmlUrl="https://portswigger.net/research/rss" htmlUrl="https://portswigger.net/research" description="New web attack classes and techniques."/>
+    </outline>
+    <outline text="Growth - Threat Intel" title="Growth - Threat Intel">
+      <outline type="rss" text="Google Threat Intelligence" title="Google Threat Intelligence" xmlUrl="https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/" htmlUrl="https://cloud.google.com/blog/topics/threat-intelligence" description="Threat actor tracking and incident research from Mandiant and Google."/>
+      <outline type="rss" text="Microsoft Threat Intelligence" title="Microsoft Threat Intelligence" xmlUrl="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/" htmlUrl="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/" description="Threat actor reporting and technique analysis from Microsoft."/>
+      <outline type="rss" text="Unit 42" title="Unit 42" xmlUrl="https://unit42.paloaltonetworks.com/feed/" htmlUrl="https://unit42.paloaltonetworks.com" description="Threat research and malware analysis from Palo Alto Networks."/>
+      <outline type="rss" text="Cisco Talos" title="Cisco Talos" xmlUrl="https://blog.talosintelligence.com/rss/" htmlUrl="https://blog.talosintelligence.com" description="Threat research, malware analysis and vulnerability disclosures."/>
+      <outline type="rss" text="The Record" title="The Record" xmlUrl="https://therecord.media/feed" htmlUrl="https://therecord.media" description="Security news reporting on nation-state activity, crime and policy."/>
+      <outline type="rss" text="Krebs on Security" title="Krebs on Security" xmlUrl="https://krebsonsecurity.com/feed/" htmlUrl="https://krebsonsecurity.com" description="Investigative reporting on cybercrime."/>
+    </outline>
+    <outline text="Horizon - Post-Quantum Crypto" title="Horizon - Post-Quantum Crypto">
+      <outline type="rss" text="Cloudflare - Post-Quantum" title="Cloudflare - Post-Quantum" xmlUrl="https://blog.cloudflare.com/tag/post-quantum/rss/" htmlUrl="https://blog.cloudflare.com/tag/post-quantum/" description="Writing on post-quantum cryptography from a team deploying it at scale."/>
+      <outline type="rss" text="NIST Cybersecurity Insights" title="NIST Cybersecurity Insights" xmlUrl="https://www.nist.gov/blogs/cybersecurity-insights/rss.xml" htmlUrl="https://www.nist.gov/blogs/cybersecurity-insights" description="NIST staff posts on standards and guidance, including cryptography."/>
+    </outline>
+    <outline text="Horizon - OT &amp; ICS" title="Horizon - OT &amp; ICS">
+      <outline type="rss" text="Industrial Cyber" title="Industrial Cyber" xmlUrl="https://industrialcyber.co/feed/" htmlUrl="https://industrialcyber.co" description="News on OT, ICS and critical infrastructure security."/>
+    </outline>
+    <outline text="Horizon - Policy &amp; Regulation" title="Horizon - Policy &amp; Regulation">
+      <outline type="rss" text="Lawfare - Cybersecurity &amp; Tech" title="Lawfare - Cybersecurity &amp; Tech" xmlUrl="https://www.lawfaremedia.org/feeds/cybersecurity-tech" htmlUrl="https://www.lawfaremedia.org/topics/cybersecurity-tech" description="Legal and policy analysis of cyber, surveillance and technology."/>
+      <outline type="rss" text="iTnews - Security" title="iTnews - Security" xmlUrl="https://www.itnews.com.au/RSS/rss.ashx?type=Category&amp;ID=32" htmlUrl="https://www.itnews.com.au/news/security" description="Australian security news, including government and regulatory developments."/>
+      <outline type="rss" text="ASD ACSC - Alerts" title="ASD ACSC - Alerts" xmlUrl="https://www.cyber.gov.au/rss/alerts" htmlUrl="https://www.cyber.gov.au" description="Australian Signals Directorate alerts on active threats."/>
+      <outline type="rss" text="ASD ACSC - Advisories" title="ASD ACSC - Advisories" xmlUrl="https://www.cyber.gov.au/rss/advisories" htmlUrl="https://www.cyber.gov.au" description="Australian Signals Directorate technical advisories."/>
+    </outline>
+  </body>
+</opml>

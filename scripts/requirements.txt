@@ -1,0 +1,6 @@
+# Dependencies for scripts/check_feeds.py, pinned by hash.
+# Install with: pip install --require-hashes -r scripts/requirements.txt
+feedparser==6.0.14 \
+    --hash=sha256:e35e3f760151b0c3b22cac9684155cae186a233e16c49bcbc6c49e91e3131137
+feedparser-sgmllib==2.1.0 \
+    --hash=sha256:2cab2d43b95a954f920f18aebce7a4dbbb3f539780b127e2aa114f579821e01d

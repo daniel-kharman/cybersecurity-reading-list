@@ -1,0 +1,80 @@
+name: Check feeds
+
+on:
+  schedule:
+    # Sundays 20:17 UTC, which is Monday morning in Sydney.
+    - cron: "17 20 * * 0"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - feeds.opml
+      - README.md
+      - scripts/**
+      - .github/workflows/check-feeds.yml
+  pull_request:
+    paths:
+      - feeds.opml
+      - README.md
+      - scripts/**
+      - .github/workflows/check-feeds.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: check-feeds-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: pip install --require-hashes -r scripts/requirements.txt
+
+      - name: Validate feeds.opml and the README tables
+        run: python scripts/check_feeds.py --validate-only --check-readme
+
+      - name: Check every feed
+        id: check
+        run: python scripts/check_feeds.py --report report.md
+
+      # Pull requests only get the job summary. The tracking issue is managed
+      # from the main branch, where the token can write issues.
+      - name: Open, update or close the tracking issue
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          PROBLEMS: ${{ steps.check.outputs.problems }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          gh label create feed-check --color D93F0B \
+            --description "Opened by the weekly feed check" --force
+          printf '\n---\nFrom [this run](%s). Each run updates this issue, and it closes itself when every feed passes.\n' \
+            "$RUN_URL" >> report.md
+          number="$(gh issue list --state open --label feed-check --json number --jq '.[0].number // empty')"
+          if [ "$PROBLEMS" -gt 0 ]; then
+            title="Feed check: $PROBLEMS need attention"
+            if [ -n "$number" ]; then
+              gh issue edit "$number" --title "$title" --body-file report.md
+            else
+              gh issue create --title "$title" --label feed-check --body-file report.md
+            fi
+          elif [ -n "$number" ]; then
+            gh issue close "$number" --comment "Every feed passed in [this run]($RUN_URL)."
+          fi

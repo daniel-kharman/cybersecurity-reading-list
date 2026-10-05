@@ -1,0 +1,4 @@
+# Feeds that work in a real feed reader but refuse automated fetchers such as
+# GitHub's runners. One feed URL per line, exactly as it appears in feeds.opml.
+# A feed listed here is reported as "blocked", not "broken", when it fails.
+# Only add a feed after confirming it loads in a feed reader.
