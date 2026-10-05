@@ -128,6 +128,7 @@ These tables are generated from `feeds.opml`.
 
 | Feed | Why it's here |
 |---|---|
+| [Lawfare - Cybersecurity & Tech](https://www.lawfaremedia.org/topics/cybersecurity-tech) ([feed](https://www.lawfaremedia.org/feeds/cybersecurity-tech)) | Legal and policy analysis of cyber, surveillance and technology. |
 | [CyberScoop](https://cyberscoop.com) ([feed](https://cyberscoop.com/feed/)) | US reporting on cyber policy, government and enforcement. |
 | [iTnews - Security](https://www.itnews.com.au/news/security) ([feed](https://www.itnews.com.au/RSS/rss.ashx?type=Category&ID=32)) | Australian security news, including government and regulatory developments. |
 <!-- feeds:end -->
@@ -139,7 +140,6 @@ Some sources belong here but can't be followed by RSS.
 - **CISA advisories**: the feeds refuse automated fetchers. Subscribe to CISA's email alerts, or pull the Known Exploited Vulnerabilities catalogue as JSON.
 - **Dragos**: the blog has no feed.
 - **ASD's ACSC**: the [alerts](https://www.cyber.gov.au/rss/alerts) and [advisories](https://www.cyber.gov.au/rss/advisories) feeds time out for cloud-hosted fetchers, so they may fail in a hosted reader. Try them if your reader runs on your own machine.
-- **Lawfare**: the site's feeds currently return no posts.
 
 ## How the list stays current
 

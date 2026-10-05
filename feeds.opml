@@ -64,6 +64,7 @@
       <outline type="rss" text="Industrial Cyber" title="Industrial Cyber" xmlUrl="https://industrialcyber.co/feed/" htmlUrl="https://industrialcyber.co" description="News on OT, ICS and critical infrastructure security."/>
     </outline>
     <outline text="Horizon - Policy &amp; Regulation" title="Horizon - Policy &amp; Regulation">
+      <outline type="rss" text="Lawfare - Cybersecurity &amp; Tech" title="Lawfare - Cybersecurity &amp; Tech" xmlUrl="https://www.lawfaremedia.org/feeds/cybersecurity-tech" htmlUrl="https://www.lawfaremedia.org/topics/cybersecurity-tech" description="Legal and policy analysis of cyber, surveillance and technology."/>
       <outline type="rss" text="CyberScoop" title="CyberScoop" xmlUrl="https://cyberscoop.com/feed/" htmlUrl="https://cyberscoop.com" description="US reporting on cyber policy, government and enforcement."/>
       <outline type="rss" text="iTnews - Security" title="iTnews - Security" xmlUrl="https://www.itnews.com.au/RSS/rss.ashx?type=Category&amp;ID=32" htmlUrl="https://www.itnews.com.au/news/security" description="Australian security news, including government and regulatory developments."/>
     </outline>
